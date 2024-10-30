@@ -1,0 +1,400 @@
+.iqx-amplify-remodal {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #605D5D;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.remodal-close-wrapper {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  right: -58px;
+}
+
+.remodal-close {
+  position: relative;
+}
+
+.remodal-close:before {
+	font-size: 57px;
+	-webkit-text-stroke: 3px white;
+	color: #ebebeb;
+	margin-top: 3px;
+}
+
+.hide {
+  display: none;
+}
+
+.iqx-amplify-modal-title, .iqx-amplify-modal-success-message {
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	margin-top: -260px;
+  font-size: 25px;
+  color: #000;
+	text-align: left;
+}
+
+.iqx-amplify-modal-title, .iqx-amplify-modal-success-message {
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	margin-top: -260px;
+  font-size: 25px;
+  color: #000;
+	text-align: left;
+}
+
+.iqx-amplify-no-image-modal-title, .iqx-amplify-no-image-modal-success-message {
+	position: absolute;
+	width: 67%;
+	left: 19%;
+	margin-top: -215px;
+	font-size: 29px;
+	color: #000;
+	text-align: left;
+}
+
+.iqx-amplify-modal-success-message.no-image {
+	position: absolute;
+	width: 73%;
+	left: 16%;
+	margin-top: -47px;
+	font-size: 18px;
+	color: #000;
+	text-align: left;
+}
+
+.iqx-amplify-modal-success-message {
+	font-size: 20px;
+  margin-top: -187px;
+  margin-left: 6px;
+}
+
+.iqx-amplify-modal-thanks-title {
+	color: #000;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  margin-left: 362px;
+  margin-top: -72px;
+}
+
+.iqx-amplify-no-image-modal-thanks-title {
+	color: #000;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  margin-left: 93px;
+  margin-top: -256px;
+}
+
+.iqx-amplify-phone-input {
+	height: 31px;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	line-height: initial;
+  font-size: 18px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+  border: solid 1px #95989A;
+  -webkit-box-shadow: -2px 1px 14px -4px rgba(0,0,0,0.64);
+  -moz-box-shadow: -2px 1px 14px -4px rgba(0,0,0,0.64);
+  box-shadow: -2px 1px 14px -4px rgba(0,0,0,0.64);
+}
+
+.iqx-amplify-phone-input:focus {
+  outline: 0;
+  border-color: #00c5f4;
+}
+
+.iqx-amplify-optin-wrapper {
+	width: 50%;
+}
+
+.iqx-amplify-phone-input-wrapper {
+	position: absolute;
+  margin-left: 341px;
+  margin-top: -168px;
+}
+
+.iqx-amplify-phone-input-no-image-wrapper {
+	position: absolute;
+	margin-left: 177px;
+	margin-top: -101px;
+}
+
+.iqx-amplify-subscribe-button, .iqx-amplify-subscribe-button:hover {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 13px;
+  color: #fff;
+	padding: 1px 6px;
+  background-color: #0D54C2;
+  height: 31px;
+  position: absolute;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  border: solid 1px #95989A;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+	margin-top: -31px;
+  z-index: 2;
+  right: -21px;
+	-webkit-box-shadow: -2px 1px 14px -4px rgba(0,0,0,0.64);
+  -moz-box-shadow: -2px 1px 14px -4px rgba(0,0,0,0.64);
+  box-shadow: -2px 1px 14px -4px rgba(0,0,0,0.64);
+}
+
+.remodal-overlay {
+  opacity: 0.6;
+  background-color: #515151;
+}
+
+.iqx-amplify-modal-footer {
+	text-align: left;
+	font-size: 8px;
+	color: #95989A;
+	width: 48%;
+	position: absolute;
+	margin-left: 327px;
+	margin-top: -7px;
+}
+
+.iqx-amplify-no-image-modal-footer {
+	text-align: left;
+  font-size: 8px;
+  color: #95989A;
+  position: absolute;
+  margin-top: -7px;
+}
+
+#iqx-amplify-modal-error-msg, #iqx-amplify-modal-valid-msg  {
+  position: absolute;
+  margin-top: -24px;
+  margin-left: 49px;
+  color: red;
+}
+
+#iqx-amplify-modal-valid-msg {
+  color: green;
+}
+
+.iqx-amplify-modal-spinner-wrapper .fa-spinner {
+  font-size: 49px;
+	position: absolute;
+  margin-left: 300px;
+  margin-top: -161px;
+}
+
+.iqx-amplify-modal-spinner-no-image-wrapper .fa-spinner {
+	font-size: 49px;
+	position: absolute;
+	margin-left: 119px;
+	margin-top: -47px;
+}
+
+.iqx-amplify-optin-image-wrapper {
+	margin-left: -35px;
+	margin-top: 13px;
+	margin-bottom: 29px;
+}
+
+.iqx-amplify-optin-image {
+	width: 51%;
+}
+
+.iqx-amplify-optin-image-no-image {
+	width: 51%;
+	height: 222px;
+	visibility: hidden;
+}
+
+@media (max-width: 710px) {
+
+	.iqx-amplify-remodal.no-image {
+    height: 90%;
+	}
+
+	.iqx-amplify-no-image-modal-footer {
+		bottom: 5px;
+	}
+
+  .iqx-amplify-modal-spinner-wrapper .fa-spinner, .iqx-amplify-modal-spinner-no-image-wrapper .fa-spinner {
+		margin-left: 47px;
+    margin-top: 83px;
+	}
+
+	.iqx-amplify-modal-thanks-title {
+		margin-top: 166px;
+		margin-left: 19px;
+	}
+
+	.iqx-amplify-subscribe-button, .iqx-amplify-subscribe-button:hover {
+		margin-left: 91px;
+		height: 31px;
+    right: initial;
+	}
+
+	.iqx-amplify-phone-input-wrapper {
+		  margin-top: 85px;
+			margin-left: inherit;
+	}
+
+	.iqx-amplify-remodal {
+		height: 83%;
+	}
+
+	.iqx-amplify-phone-input-no-image-wrapper {
+		margin-left: 18%;
+	}
+
+	.iqx-amplify-optin-image {
+		width: 88%;
+	}
+
+  .iqx-amplify-modal-title {
+    font-size: 25px;
+    text-align: left;
+		left: 0;
+    margin-top: 0px;
+		width: initial;
+		margin-left: 14px;
+  }
+
+	.iqx-amplify-no-image-modal-title {
+		font-size: 21px;
+		width: 78%;
+		left: 12%;
+	}
+
+	.iqx-amplify-no-image-modal-thanks-title {
+    color: #000;
+    font-size: 17px;
+    font-weight: 100;
+    position: absolute;
+    margin-left: -12px;
+    margin-top: -256px;
+	}
+
+	.input-no-image-wrapper {
+    margin-left: -1%;
+	}
+
+  #iqx-amplify-modal-error-msg, #iqx-amplify-modal-valid-msg  {
+    margin-left: -53px;
+  }
+
+  .iqx-amplify-modal-footer {
+		text-align: left;
+		font-size: 8px;
+		color: #95989A;
+		width: 48%;
+		bottom: 0px;
+		position: absolute;
+		width: 93%;
+    margin-left: -24px;
+  }
+
+  .iqx-amplify-phone-input {
+    font-size: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+		height: 31px;
+		width: 300px;
+  }
+
+	.iqx-amplify-modal-success-message {
+		font-size: 22px;
+    text-align: left;
+		margin-top: 55px;
+		margin-left: -159px;
+		width: 100%;
+	}
+
+	.iqx-amplify-modal-success-message.no-image {
+		font-size: 18px;
+    text-align: left;
+    margin-top: 33px;
+    margin-left: -16px;
+    width: 100%;
+	}
+
+  .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel] {
+    padding-left: 7px;
+  }
+
+  .flag-container {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .iqx-amplify-modal-thanks-title {
+    margin-top: inherit;
+    margin-left: inherit;
+    bottom: 36px;
+  }
+
+	.iqx-amplify-phone-input-no-image-wrapper {
+    margin-left: 8px;
+	}
+
+	.iqx-amplify-modal-success-message.no-image {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 33px;
+    margin-left: -27px;
+    width: 86%;
+	}
+}
+
+@media (max-width: 378px) {
+	.iqx-amplify-subscribe-button, .iqx-amplify-subscribe-button:hover {
+		margin-left: 81px;
+	}
+
+	.iqx-amplify-phone-input-no-image-wrapper {
+    margin-left: -14px;
+	}
+}
+
+@media (max-width: 325px) {
+	.iqx-amplify-modal-thanks-title {
+		margin-top: 133px;
+		margin-left: -11px;
+	}
+
+	.iqx-amplify-modal-title {
+		font-size: 20px;
+	}
+
+	.iqx-amplify-no-image-modal-title {
+		font-size: 20px;
+	}
+
+	.iqx-amplify-phone-input {
+		width: 256px;
+	}
+
+	.iqx-amplify-subscribe-button, .iqx-amplify-subscribe-button:hover {
+		margin-left: 65px;
+	}
+
+	.iqx-amplify-modal-success-message {
+		font-size: 17px;
+    text-align: left;
+    margin-top: 41px;
+    margin-left: -133px;
+	}
+
+	.iqx-amplify-modal-spinner-wrapper .fa-spinner, .iqx-amplify-modal-spinner-no-image-wrapper .fa-spinner {
+		margin-left: 31px;
+		margin-top: 69px;
+	}
+}
